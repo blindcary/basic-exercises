@@ -23,3 +23,13 @@ def revers_name():
     print(last_name, "" ,first_name)
 if __name__ == "__main__":
     revers_name()
+
+#6
+def list_and_tuple():
+    input_sequence = input("Enter nums:")
+    nums_list = input_sequence.split(',')
+    nums_tuple = tuple(nums_list)
+    print("List:", nums_list)
+    print("Tuple:", nums_tuple)
+if __name__ == "__main__":
+    list_and_tuple()
